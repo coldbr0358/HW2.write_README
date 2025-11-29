@@ -2,6 +2,8 @@
 #### [과제2] README 파일 작성하기 (top, ps, jobs, kill)
 ----
 
+
+
 # ***1. top (실시간 프로세스 모니터링)***
 
   - 개념 :       
@@ -115,13 +117,45 @@
         `jobs -*`       
         ![jobs -l -n -p -r - s옵션](images/jobs/jobs(-l-n-p-r-s)_option.PNG)
 
-      (3)  기호, 상태값 :         
+      (3) jobs번호, 기호, 상태값 :         
                   
         ![jobs](images/jobs/jobs_기호,상태값.PNG) 
 
 
 
+# ***4. kill (프로세스 종료 또는 신호 보내기)***
 
+  - 개념 :       
+      - 신호를 보내는 명령어
+      - 종료 이외의 다양한 제어 신호를 보낼 수 있음
+  
+  - 옵션 :
+    | | 옵션 | 설명 |
+    |-----|-----|-----|
+    |1| -l | 시그널 목록 보기 |
+    |2| -15 PID | SIGTERM, 옵션 생략 가능, 정상 종료 요청 |
+    |3| -9 PID | SIGKILL, 강제 종료 |
+    |4| -1 PID | SIGHUP, 설정 파일 재로딩 요청 |
+    |5| -STOP PID | 프로세스 일시 정지 |
+    |6| -CONT PID | 정지된 프로세스 재개 |
+    |7| %n | jobs 번호로 종료       
+      
+    - 예시 :    
+         
+      (1) -l : kill 시그널 목록 보기     
+
+        `kill -l`     
+        ![-o 옵션](images/kill/kill(-l)_option.PNG)    
+
+      (2) -p 1 : "PID 1"만 모니터링
+              
+        `top -p 1`      
+        ![-p 옵션](images/top/top(-p)_option.PNG)    
+
+      (3) -d 2 : 2초마다 갱신
+
+        `top -d 2`     
+        ![-d 옵션](images/top/top(-d)_option.PNG)    
 
 
 
