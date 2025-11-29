@@ -180,5 +180,5 @@
       (7) %n : jobs 번호로 종료
               
         `kill %n`      
-        ![%n 옵션](images/kill/kill(%n)_option.PNG)
+        ![%n 옵션](images/kill/kill(n)_option.PNG)
 
