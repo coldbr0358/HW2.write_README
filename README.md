@@ -97,23 +97,27 @@
   - 상태값:
       | | 상태 | 설명 |
       |-----|-----|-----|
-      |1| Running | 작업이 백그라운드에서 정상적으로 실행 중 |
-      |2| Stopped | 프로세스는 존재, 작업이 일시 중지 |
-      |3| Done | 정상 종료 |
-      |4| Terminated / Killed | 강제 종료 |
-      |5| Exit < code > | 종료 코드와 함꼐 종료 |
+      |1| Running | 백그라운드에서 정상적으로 실행 중 |
+      |2| Stopped | 프로세스는 존재, 신호로 작업이 일시 중지 |
+      |3| Done | 정상적으로 종료 |
+      |4| Terminated / Killed | 비정상 신호로 강제 종료 |
+      |5| Exit < code > | 종료 코드를 남기고 종료 |
         
     - 예시 :    
          
       (1) jobs : 기본 출력     
 
         `jobs`    
-        ![aux 옵션](images/ps/ps(aux)_option.PNG)    
+        ![jobs](images/jobs/jobs_option.PNG)    
 
-      (2) -p 1 : 부모-자식 관계 트리 구조 출력
+      (2) -l -n -p -r - s -> 백그라운드 작업 실행한 적 없기에 출력 X
 
-        `ps -ef --forest`       
-        ![-ef --forest옵션](images/ps/ps(-ef_--forest)_option.PNG)    
+        `jobs -*`       
+        ![jobs -l -n -p -r - s옵션](images/jobs/jobs(-l-n-p-r-s)_option.PNG)
+
+      (3)  기호, 상태값 :         
+                  
+        ![jobs](images/jobs/jobs_기호,상태값.PNG) 
 
 
 
