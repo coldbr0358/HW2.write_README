@@ -150,35 +150,35 @@
       (1) -l : kill 시그널 목록 보기     
 
         `kill -l`     
-        ![-o 옵션](images/kill/kill(-l)_option.PNG)    
+        ![-l 옵션](images/kill/kill(-l)_option.PNG)    
 
       (2) -15 / (생략) : SIGTERM, 정상 종료 요청
               
         `kill -15 PID / kill PID`      
-        ![-p 옵션](images/kill/kill(-15or(생략))_option.PNG)    
+        ![-15 / (생략) 옵션](images/kill/kill(-15or(생략))_option.PNG)    
 
       (3) -9 : SIGKILL, 강제 종료
               
-        `kill -15 PID / kill PID`      
-        ![-p 옵션](images/kill/kill(-9)_option.PNG)
+        `kill -9 PID`      
+        ![-9 옵션](images/kill/kill(-9)_option.PNG)
 
       (4) -1 : SIGHUP, 설정 파일 재로딩 요청
               
-        `kill -15 PID / kill PID`      
-        ![-p 옵션](images/kill/kill(-1)_option.PNG)
+        `kill -1 PID`      
+        ![-1 옵션](images/kill/kill(-1)_option.PNG)
 
       (5) -STOP : 프로세스 일시 정지
               
-        `kill -15 PID / kill PID`      
-        ![-p 옵션](images/kill/kill(-STOP)_option.PNG)
+        `kill -STOP PID`      
+        ![-STOP 옵션](images/kill/kill(-STOP)_option.PNG)
 
       (6) -CONT : 정지된 프로세스 재개
               
-        `kill -15 PID / kill PID`      
-        ![-p 옵션](images/kill/kill(-CONT)_option.PNG)
+        `kill -CONT PID`      
+        ![-CONT 옵션](images/kill/kill(-CONT)_option.PNG)
 
       (7) %n : jobs 번호로 종료
               
-        `kill -15 PID / kill PID`      
-        ![-p 옵션](images/kill/kill(%n)_option.PNG)
+        `kill %n`      
+        ![%n 옵션](images/kill/kill(%n)_option.PNG)
 
