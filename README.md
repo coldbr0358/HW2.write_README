@@ -128,7 +128,7 @@
                   
         ![jobs](images/jobs/jobs_기호,상태값.PNG) 
 
-출처: <https://monkeybusiness.tistory.com/630#google_vignette>, <https://www.lainyzine.com/ko/article/linux-jobs-command-usage/>, <https://seb.kr/w/%EB%A6%AC%EB%88%85%EC%8A%A4_jobs>
+출처: <https://buly.kr/7x7VYqK>, <https://buly.kr/AF1MJSE>, <https://buly.kr/D3fU0Vu>
 
 
 # ***4. kill (프로세스 종료 또는 신호 보내기)***
@@ -185,3 +185,4 @@
         `kill %n`      
         ![%n 옵션](images/kill/kill(n)_option.PNG)
 
+출처: <https://buly.kr/BeLQA0K>, <https://buly.kr/GZydcr8>
