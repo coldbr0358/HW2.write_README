@@ -66,10 +66,38 @@
 
       (2) -p 1 : 부모-자식 관계 트리 구조 출력
 
-        `ps -ef --forest`
+        `ps -ef --forest`       
         ![-ef --forest옵션](images/ps/ps(-ef_--forest)_option.PNG)    
- 
 
+
+ 
+# ***3. jobs (현재 터미널 세션의 백그라운드 작업 확인)***
+
+  - 개념 : 
+    - 현재 실행 중인 프로세스를 "정적인 상태"로 한 번 출력
+    - top처럼 실시간 갱신 X
+  
+  - 옵션 :
+    | | 옵션 | 설명 |
+    |-----|-----|-----|
+    |1| a | 모든 사용자 프로세스 |
+    |2| u | 사용자 중심 상세 출력 |
+    |3| x | 터미널 없는 프로세스 포함 |
+    |4| -e | 전체 프로세스 출력 |
+    |5| -f | full format (부모 PID 등 표시) |
+    |6| --forest | 프로세스 트리 구조 출력 |
+  
+    - 예시 :    
+         
+      (1) aux : 모든 프로세스 보기     
+
+        `ps aux`    
+        ![aux 옵션](images/ps/ps(aux)_option.PNG)    
+
+      (2) -p 1 : 부모-자식 관계 트리 구조 출력
+
+        `ps -ef --forest`       
+        ![-ef --forest옵션](images/ps/ps(-ef_--forest)_option.PNG)    
 
 
 
