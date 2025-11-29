@@ -41,6 +41,7 @@
         `top -d 2`     
         ![-d 옵션](images/top/top(-d)_option.PNG)    
 
+출처: <https://buly.kr/5fDeoBl>, <https://buly.kr/58TNrkU>
 
 
 # ***2. ps (현재 실행 중인 프로세스 확인)***
@@ -71,6 +72,7 @@
         `ps -ef --forest`       
         ![-ef --forest옵션](images/ps/ps(-ef_--forest)_option.PNG)    
 
+출처: <https://buly.kr/EzjonRT>, <https://buly.kr/7FSTdZ7>
 
  
 # ***3. jobs (현재 쉘에서 실행된 작업의 상태 확인)***
@@ -126,6 +128,7 @@
                   
         ![jobs](images/jobs/jobs_기호,상태값.PNG) 
 
+출처: <https://monkeybusiness.tistory.com/630#google_vignette>, <https://www.lainyzine.com/ko/article/linux-jobs-command-usage/>, <https://seb.kr/w/%EB%A6%AC%EB%88%85%EC%8A%A4_jobs>
 
 
 # ***4. kill (프로세스 종료 또는 신호 보내기)***
