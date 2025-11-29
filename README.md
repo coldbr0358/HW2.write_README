@@ -117,6 +117,11 @@
         `jobs -*`       
         ![jobs -l -n -p -r - s옵션](images/jobs/jobs(-l-n-p-r-s)_option.PNG)
 
+      [+] 백그라운드 실행 후:
+        
+        `jobs -*`     
+        ![jobs -l -n -p -r - s옵션](images/jobs/jobs(-l-n-p-r-s)_v2_option.PNG)
+      
       (3) jobs번호, 기호, 상태값 :         
                   
         ![jobs](images/jobs/jobs_기호,상태값.PNG) 
@@ -147,17 +152,33 @@
         `kill -l`     
         ![-o 옵션](images/kill/kill(-l)_option.PNG)    
 
-      (2) -p 1 : "PID 1"만 모니터링
+      (2) -15 / (생략) : SIGTERM, 정상 종료 요청
               
-        `top -p 1`      
-        ![-p 옵션](images/top/top(-p)_option.PNG)    
+        `kill -15 PID / kill PID`      
+        ![-p 옵션](images/kill/kill(-15or(생략))_option.PNG)    
 
-      (3) -d 2 : 2초마다 갱신
+      (3) -9 : SIGKILL, 강제 종료
+              
+        `kill -15 PID / kill PID`      
+        ![-p 옵션](images/kill/kill(-9)_option.PNG)
 
-        `top -d 2`     
-        ![-d 옵션](images/top/top(-d)_option.PNG)    
+      (4) -1 : SIGHUP, 설정 파일 재로딩 요청
+              
+        `kill -15 PID / kill PID`      
+        ![-p 옵션](images/kill/kill(-1)_option.PNG)
 
+      (5) -STOP : 프로세스 일시 정지
+              
+        `kill -15 PID / kill PID`      
+        ![-p 옵션](images/kill/kill(-STOP)_option.PNG)
 
+      (6) -CONT : 정지된 프로세스 재개
+              
+        `kill -15 PID / kill PID`      
+        ![-p 옵션](images/kill/kill(-CONT)_option.PNG)
 
-
+      (7) %n : jobs 번호로 종료
+              
+        `kill -15 PID / kill PID`      
+        ![-p 옵션](images/kill/kill(%n)_option.PNG)
 
