@@ -24,13 +24,13 @@
   
     - 예시 :   
     (1) -o %MEM : 메모리 많이 쓰는 순으로 정렬
-        ![-o 옵션](images/top/top(-o)_option)
+        ![-o 옵션](images/top/top(-o)_option.PNG)
 
     (2) -p 1 : PID 1만 모니터링
-        ![-p 옵션](images/top/top(-p)_option)
+        ![-p 옵션](images/top/top(-p)_option.PNG)
 
     (3) -d 2 : 2초마다 갱신
-        ![-d 옵션](images/top/top(-d)_option)
+        ![-d 옵션](images/top/top(-d)_option.PNG)
               
 
 
