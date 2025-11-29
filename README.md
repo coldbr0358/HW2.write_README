@@ -1,5 +1,9 @@
-## HW2.write_README
-#### [과제2] README 파일 작성하기 (top, ps, jobs, kill)
+# HW2.write_README
+## [과제2] README 파일 작성하기 (top, ps, jobs, kill)
+----
+#### 조선대학교 IT융합대학
+#### AI소프트웨어학부(컴퓨터공학전공)
+#### 20253125 임찬형
 ----
 
 
